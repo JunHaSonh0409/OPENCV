@@ -6,7 +6,7 @@
 
 using namespace cv;
 using namespace std;
-int main(int argc,char* argv[])
+int main(int argc,char* argv[])//argc[0],argv[0]은 자기자신을 나타냄
 {
 	Mat img1 = imread(argv[2], IMREAD_COLOR);
 	Mat img2 = imread(argv[3], IMREAD_COLOR);
