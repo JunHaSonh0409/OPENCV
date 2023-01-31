@@ -23,7 +23,6 @@ int main(int argc,char* argv[])
 		vconcat(mat, imgr);;
 	if(strcmp(argv[1],"-h")==0)
 	    hconcat(mat, imgr);
-
 	imwrite("C:\\temp\\1111.jpg", imgr);
 	imshow("fuck", imgr);
 	waitKey(0);
